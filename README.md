@@ -16,13 +16,13 @@ Below are the scripts that have been added to `package.json` file
 
 `"formatCheck"`: runs `prettier` with `--check` option to check if code is formated to set options.
 
-`"formatWrite"`:runs `prettier` with `--write` option to format code to set options.
+`"formatWrite"`: runs `prettier` with `--write` option to format code to set options.
 
-`"prebuild"`: runs `eslint` check automatically before building production version app
+`"prebuild"`: runs `eslint` check automatically before building production version app.
 
-`"build"`: builds production version app
+`"build"`: builds production version app into `dist` folder.
 
-`"start"`: starts a dev server with the developer version app
+`"start"`: starts a dev server with the developer version app.
 
 `"deploy"`: this script does the following steps in order:
 
