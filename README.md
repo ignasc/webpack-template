@@ -1,6 +1,6 @@
 # Webpack template
 
-A generic webpack template for html, css and javascript.
+A generic webpack template for html, css and javascript. This is the template that I will be using for my personal projects and will update it as needed.
 
 ### Important notes
 
@@ -10,9 +10,13 @@ Make sure to modify the command line of `"deploy"` script to refer to correct gi
 
 Below are the scripts that have been added to `package.json` file
 
-`"test"`: runs `eslint` check on all files in `src` folder
+`"test"`: runs `prettier` and all files and `eslint` check on all files in `src` folder (only a check, no modifications).
 
 `"fix"`: runs `eslint` with `--fix` option.
+
+`"formatCheck"`: runs `prettier` with `--check` option to check if code is formated to set options.
+
+`"formatWrite"`:runs `prettier` with `--write` option to format code to set options.
 
 `"prebuild"`: runs `eslint` check automatically before building production version app
 
