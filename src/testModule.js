@@ -3,9 +3,9 @@ const topTitle = document.createElement("h1");
 
 topTitle.textContent = "Webpack template loaded";
 
-function showTestMessage(){
+function showTestMessage() {
     divContent.textContent = "";
     divContent.appendChild(topTitle);
-};
+}
 
 export default showTestMessage;
