@@ -10,9 +10,9 @@ Make sure to modify the command line of `"deploy"` script to refer to correct gi
 
 Below are the scripts that have been added to `package.json` file
 
-`"test"`: runs `prettier` check on all files and `eslint` check on all files in `src` folder (no modifications).
+`"formatTest"`: runs `prettier` check on all files and `eslint` check on all files in `src` folder (no modifications).
 
-`"fix"`: runs `eslint` with `--fix` option.
+`"formatFix"`: runs `eslint` with `--fix` option.
 
 `"formatCheck"`: runs `prettier` with `--check` option to check if code is formated to set options.
 

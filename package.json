@@ -4,8 +4,8 @@
   "description": "generic webpack template for html, css and javascript",
   "main": "index.js",
   "scripts": {
-    "test": "npm run formatCheck && eslint ./src/",
-    "fix": "eslint --fix ./src/",
+    "formatTest": "npm run formatCheck && eslint ./src/",
+    "formatFix": "eslint --fix ./src/",
     "formatCheck": "prettier . --check",
     "formatWrite": "prettier . --write",
     "prebuild": "eslint ./src/",
